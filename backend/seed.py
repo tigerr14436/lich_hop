@@ -1,7 +1,7 @@
 """One-time local bootstrap. Only run in a trusted dev environment."""
 import os
 from sqlalchemy import select
-from app.main import SessionLocal, Department, User, MeetingRoom, hasher
+from backend.main import SessionLocal, Department, User, MeetingRoom, hasher
 
 DEPARTMENTS = [
  ('bgh','Ban Giám hiệu / Hội đồng trường'),
